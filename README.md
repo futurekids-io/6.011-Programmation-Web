@@ -23,7 +23,7 @@ Le cours se déroulera de la manière suivante :
 
 ## Programme du cours
 
-1. [Introduction à la programmation #1 : les variables](https://futurekids-io.github.io/6.011-Programmation-web/cours1/#1)
+1. [Introduction à la programmation #1 : les variables](https://futurekids-io.github.io/6.011-Programmation-Web/cours1/#1)
 2. [Introduction à la programmation #2 : chaînes de caractères & opérations mathématiques]()
 3. [PHP : les opérateurs conditionnels]()
 4. [PHP : les boucles]()
