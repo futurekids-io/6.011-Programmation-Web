@@ -7,11 +7,18 @@ h1 {
   line-height: 3.5rem;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
+  z-index: 100;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
   z-index: 100;
 }
 
@@ -31,6 +38,15 @@ h3 {
 .remark-slide-content {background-color: white;}
 
 .remark-code, .remark-inline-code { font-family: 'Source Code Pro', monospace; }
+
+.remark-inline-code {
+  background-color: rgba(222,222,222,0.5);
+  color: crimson;
+  padding: 4px;
+  line-height: 1.2rem;
+  font-size: 1rem;
+  border-radius: 2px;
+}
 
 .unstyled-table {
   width: 100%;
