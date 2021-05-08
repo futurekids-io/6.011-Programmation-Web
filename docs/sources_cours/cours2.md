@@ -28,21 +28,21 @@ class: middle
 
 - Comment fonctionne **PHP** ? 
 
-    PHP est un langage qui s’exécute sur le serveur, contrairement à HTML CSS, qui s’exécutent du côté du client (notre navigateur).
+*PHP est un langage qui s’exécute sur le serveur, contrairement à HTML CSS, qui s’exécutent du côté du client (notre navigateur).*
 
 - Comment l’utiliser dans nos **documents HTML** ? 
 
-    En utilisant les "balises" : `<?php … ?>`
+*En utilisant les "balises" : `<?php … ?>`*
 
 - Comment **afficher un élément** sur notre page en utilisant PHP ? 
 
-    En utilisant la commande `echo`
+*En utilisant la commande `echo`*
 
 - Comment fonctionne une **variable** ?
 
-    Une variable fonctionne comme une boîte : on lui donne un nom, une étiquette, et on peut ranger à l’intérieur de cette boîte ce qu’on veut (textes, nombres, etc.).
+*Une variable fonctionne comme une boîte : on lui donne un nom, une étiquette, et on peut ranger à l’intérieur de cette boîte ce qu’on veut (textes, nombres, etc.).*
 
-    Elle se définit de la manière suivante : `$maVariable = ... ;`
+*Elle se définit de la manière suivante : `$maVariable = ... ;`*
 
 ---
 
