@@ -52,6 +52,15 @@ h3 {
   width: 100%;
 }
 
+.styled-table td, .styled-table th, .styled-table tr, .styled-table {
+  border: solid 1px black;
+  border-collapse:collapse;
+}
+
+.styled-table td, .styled-table th {
+  padding: 10px;
+}
+
 .secondary-color { color:rgb(45, 189, 239) }
 
 .red { color: red;}
