@@ -121,7 +121,7 @@ On a parfois besoin de comparer plus de **deux éléments**. On peut pour cela *
 
 ---
 
-# Table de vérité : <span class="secondary-color">AND</span>
+## Table de vérité : <span class="secondary-color">AND</span>
 
 <table style="text-align: left;" class="styled-table">
     <tr>
@@ -157,7 +157,7 @@ On a parfois besoin de comparer plus de **deux éléments**. On peut pour cela *
 
 ---
 
-# Table de vérité : <span class="secondary-color">AND</span>
+## Table de vérité : <span class="secondary-color">AND</span>
 
 <table style="text-align: left;" class="styled-table">
     <tr>
@@ -193,7 +193,7 @@ On a parfois besoin de comparer plus de **deux éléments**. On peut pour cela *
 
 ---
 
-# Table de vérité : <span class="secondary-color">OR</span>
+## Table de vérité : <span class="secondary-color">OR</span>
 
 <table style="text-align: left;" class="styled-table">
     <tr>
@@ -229,7 +229,7 @@ On a parfois besoin de comparer plus de **deux éléments**. On peut pour cela *
 
 ---
 
-# Table de vérité : <span class="secondary-color">OR</span>
+## Table de vérité : <span class="secondary-color">OR</span>
 
 <table style="text-align: left;" class="styled-table">
     <tr>
@@ -263,9 +263,99 @@ On a parfois besoin de comparer plus de **deux éléments**. On peut pour cela *
     </tr>
 </table>
 
+---
+
+## Les instructions <span class="secondary-color">conditionnelles</span>
+
+L'instruction `if` est une des instructions **les plus importantes en programmation**. 
+
+Cette instruction permet d'exécuter une portion de code si son argument est `true` :
+
+```php
+if($a > $b) {
+    echo "a est plus grand que b.";
+}
+```
 
 ---
 
-## Exercice <span class="secondary-color">pratique</span>
+## Les instructions <span class="secondary-color">conditionnelles</span>
 
-À l'aide des fonctions mathématiques et textuelles, créez un script qui permette de trouver quel mot vient en premier
+Nous pouvons ajouter d'autres instructions à notre `if` pour plus de précision.
+
+On peut lister des autres actions si le `if`n'est pas `true` grâce  à l'instruction `elseif(...)`.
+
+On peut finalement choisir une portion de code à exécuter si aucun des `if` ou `elseif` n'est vrai, grâce à l'instruction `else`.
+
+```php
+if($a > $b) {
+    echo "a est plus grand que b.";
+} elseif($a == $b) {
+    echo "a est égal à b.";
+} else {
+    echo "a est plus petit que b.";
+}
+```
+
+Il n'est pas nécessaire de toujours utiliser les 3 instructions. **À vous** d'adapter le code selon la situation.
+
+---
+
+## Exercice <span class="secondary-color">pratique</span> <br>version 1
+
+Créez un script qui tire **2 nombres au hasard**, entre 1 et 10, et qui retourne `true`/`false` si le premier nombre est plus grand que le second : 
+
+```php
+$a = ... ;
+$b = ... ;
+
+echo $a ... $b ;
+
+```
+
+---
+
+## Exercice <span class="secondary-color">pratique</span><br>version 2
+
+À l'aide du squelette de code suivant et de l'exercice précédent, créez un script qui affiche selon la valeur des 2 nombres **lequel est plus grand que l'autre** : 
+
+```php
+$a = ... ;
+$b = ... ;
+
+if(...) {
+    echo "$a est plus grand que $b.";
+
+} elseif(...) {
+    echo "$a est égal à $b.";
+
+} ... {
+    echo "$a est plus petit que $b.";
+
+}
+```
+
+---
+
+## Exercice <span class="secondary-color">pratique</span><br>version 3
+
+Pour les plus avancé.e.s, créez un script qui va chercher dans un texte **la position de 2 mots stockés dans des variables**, et qui indique si les 2 mots sont identiques, et sinon, lequel est positionné en premier dans le texte.
+
+```php
+// Pour sélectionner le texte, triple-cliquez sur la ligne :
+$texte = "Enigma est une machine électromécanique portative servant au chiffrement et au déchiffrement de l'information. Elle fut inventée par l'Allemand Arthur Scherbius, reprenant un brevet du Néerlandais Hugo Koch, datant de 1919. Enigma fut utilisée principalement par les Allemands pendant la Seconde Guerre mondiale. Le terme Enigma désigne en fait toute une famille de machines, car il en a existé de nombreuses et subtiles variantes, commercialisées en Europe et dans le reste du monde à partir de 1923. Elle fut aussi adoptée par les services militaires et diplomatiques de nombreuses nations. Son utilisation la plus célèbre fut celle faite par l'Allemagne nazie et ses alliés, avant et pendant la Seconde Guerre mondiale, la machine étant réputée inviolable selon ses concepteurs. Néanmoins un nombre important de messages Enigma ont pu être décryptés près de sept ans avant la guerre. Dès 1931, le Service français de renseignement était parvenu à recruter une source au sein même du bureau du chiffre du ministère de la Reichswehr. Il obtient de lui de premières copies de la documentation ; il les proposa à l'Intelligence Service britannique, qui se montra sceptique, et au service polonais, qui fut très intéressé. Une coopération s'instaura, qui allait durer jusqu'en 1939. Les Français continuèrent de fournir de nouveaux renseignements obtenus de la même source, et les Polonais montèrent une équipe qui parvint à reproduire la machine à partir de la documentation de plus en plus précise qui leur parvenait.";
+
+$mot1 = "Enigma" ;
+$mot2 = "Polonais" ;
+
+if($mot1 ... $mot2) {
+    echo "Les 2 mots sont identiques. Ils se situent à la position " 
+        . stropos($texte, $mot1) . ".<br>";
+} else {
+    if(strpos(..., $mot1) < strpos($texte, ...) {
+        echo "'$mot1' est positionné avant '$mot2'.";
+    } ... {
+        echo "'$mot1' est positionné après '$mot2'.";
+    }
+}
+```
