@@ -350,9 +350,9 @@ $mot2 = "Polonais" ;
 
 if($mot1 ... $mot2) {
     echo "Les 2 mots sont identiques. Ils se situent à la position " 
-        . stropos($texte, $mot1) . ".<br>";
+        . strpos($texte, $mot1) . ".<br>";
 } else {
-    if(strpos(..., $mot1) < strpos($texte, ...) {
+    if(strpos(..., $mot1) < strpos($texte, ...)) {
         echo "'$mot1' est positionné avant '$mot2'.";
     } ... {
         echo "'$mot1' est positionné après '$mot2'.";
