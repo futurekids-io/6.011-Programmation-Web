@@ -27,7 +27,7 @@ Le cours se déroulera de la manière suivante :
 2. [Introduction à la programmation #2 : chaînes de caractères & opérations mathématiques](https://futurekids-io.github.io/6.011-Programmation-Web/cours2/#1)
 3. [PHP : Booléens & instructions conditionnelles](https://futurekids-io.github.io/6.011-Programmation-Web/cours3/#1)
 4. [PHP : Tableaux & boucles](https://futurekids-io.github.io/6.011-Programmation-Web/cours4/#1)
-<!-->
+<!--
 5. [PHP : les fonctions](https://futurekids-io.github.io/6.011-Programmation-Web/cours5/#1)
 6. [Approfondissement : utilisation de classes](https://futurekids-io.github.io/6.011-Programmation-Web/cours6/#1)
 7. [Projet en commun](https://futurekids-io.github.io/6.011-Programmation-Web/cours7/#1)
