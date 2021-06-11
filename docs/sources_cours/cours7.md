@@ -129,3 +129,11 @@ En combinant le code de la table de multiplication (avec la boucle simple) et ce
   </body>
 </html>
 ```
+
+---
+
+class:middle
+
+## Suite de l'<span class="secondary-color">exercice</span>
+
+Même exercice, mais cette fois sous la forme d'un **tableau**.
