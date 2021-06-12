@@ -77,6 +77,24 @@ for ($index = ...; $index <= ...; $index++) {
 *Indice : nous devons utiliser **2 boucles** l'une dans l'autre !*
 
 ---
+
+## Corrigé de l'<span class="secondary-color">exercice</span>
+
+```php
+  // Affichage de 12 tables
+  for ($num_table = 1; $num_table <= 12; $num_table += 1) {
+    echo "Table n°$num_table<br>";
+
+    // Affichage d'une table
+    for ($num_ligne = 1; $num_ligne <= 12; $num_ligne += 1) {
+      echo "$num_ligne * $num_table = " . $num_ligne * $num_table . "<br />";
+    }
+    echo "---<br>";
+  }
+```
+
+
+---
 class:middle
 
 ## Et <span class="secondary-color">HTML</span> dans tout ça ?
