@@ -29,9 +29,7 @@ Le cours se déroulera de la manière suivante :
 4. [PHP : Tableaux & boucles](https://futurekids-io.github.io/6.011-Programmation-Web/cours4/#1)
 5. [PHP : Tableaux & boucles, suite](https://futurekids-io.github.io/6.011-Programmation-Web/cours5/#1) *(2 cours)*
 7. [Approfondissement : PHP & HTML](https://futurekids-io.github.io/6.011-Programmation-Web/cours7/#1)
-<!--
-8. [Projet en commun](https://futurekids-io.github.io/6.011-Programmation-Web/cours7/#1)
--->
+8. [Gestion de formulaire](https://futurekids-io.github.io/6.011-Programmation-Web/cours8/#1)
 
 
 <!-- 
