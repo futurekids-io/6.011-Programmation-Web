@@ -31,22 +31,14 @@ Le cours se déroulera de la manière suivante :
 7. [Approfondissement : PHP & HTML](https://futurekids-io.github.io/6.011-Programmation-Web/cours7/#1)
 8. [Gestion de formulaire](https://futurekids-io.github.io/6.011-Programmation-Web/cours8/#1)
 9. [Gestion de formulaire, suite](https://futurekids-io.github.io/6.011-Programmation-Web/cours9/#1)
+10. [Introduction aux fonctions](https://futurekids-io.github.io/6.011-Programmation-Web/cours10/#1)
 
-
-<!-- 
-## Exercices
-
-*À venir*
-
-
-- [Activité 1 : ](/exercices/activite01) 
-- [Activité 2 : ](/exercices/activite02)
-- [Activité 3 : ](/exercices/activite03) 
-- [Activité 4 : ](/exercices/activite04) 
-- [Activité 5 : ](/exercices/activite05) 
-- [Activité 6 : ](/exercices/activite06) 
--->
 
 ## Liens utiles
 
 - [W3Schools - PHP](https://www.w3schools.com/php/default.asp)
+
+## Pour aller plus loin 
+
+- [OpenClassrooms : PHP & MySQL](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql)
+- [OpenClassrooms : La programmation orientée objet](https://openclassrooms.com/fr/courses/1665806-programmez-en-oriente-objet-en-php)
